@@ -6,6 +6,7 @@
 }
 
 header {
+  background-color: #ffffff;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -32,10 +33,59 @@ header a {
   font-weight: 500;
 }
 header button {
+  background-color: #ffffff;
+  color: #000000;
   border: solid;
   width: 8%;
   height: 8vh;
   font-size: 1.5rem;
   font-weight: 500;
   font-family: "Oswald";
+  cursor: pointer;
+}
+header button:hover {
+  background-color: #DCDCDC;
+  transition: 0.3;
+}
+
+.containerImagemDeFundo {
+  background-image: url(./imagens/background.png);
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: 100% 86vh;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  font-family: "Oswald";
+  padding-left: 8rem;
+  padding-bottom: 5rem;
+}
+.containerImagemDeFundo h1 {
+  color: #ffffff;
+  font-size: 5.8rem;
+  font-weight: 700;
+}
+.containerImagemDeFundo p {
+  color: #ffffff;
+  font-size: 2rem;
+  font-weight: 300;
+}
+.containerImagemDeFundo button {
+  background-color: #0016DF;
+  color: #FFFFFF;
+  border: none;
+  width: 12%;
+  height: 5vh;
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-left: 2rem;
+  margin-top: 2rem;
+  cursor: pointer;
+}
+.containerImagemDeFundo button:hover {
+  background-color: #87CEFA;
+  color: #000000;
+  transition: 0.3;
 }/*# sourceMappingURL=style.css.map */
