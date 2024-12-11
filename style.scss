@@ -107,7 +107,7 @@ header {
     display: flex;
     justify-content: space-around;
     align-items: top;
-    height: 85vh;
+    height: 90vh;
 
     article {
         width: 25%;
@@ -148,5 +148,66 @@ header {
     img {
         width: 35vw;
         height: 75vh;
+    }
+}
+
+.containerSolucoes {
+    background-color: #D3D3D3;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    h2 {
+        font-family: "Oswald";
+        color: #0017E9;
+        font-size: 1.5rem;
+        font-weight: 500;
+    }
+
+    h3 {
+        font-family: "Oswald";
+        color: #000000;
+        font-size: 1.5rem;
+        font-weight: 500;
+        padding-top: 2rem;
+        margin-bottom: 4rem;
+    }
+
+    section {
+        display: flex;
+        justify-content: space-evenly;
+
+        article {
+            background-color: #ffffff;
+            width: 20%;
+            height: 55vh;
+            display: flex;
+            flex-direction: column;
+            text-align: start;
+            box-shadow: 0px 0px 10px 0px #000000;
+
+            img {
+                width: 100%;
+            }
+
+            h1 {
+                font-family: "Oswald";
+                color: #000000;
+                font-size: 1.5rem;
+                font-weight: 500;
+                margin: 1rem 0 0 1rem;
+            }
+
+            p {
+                font-family: "Oswald";
+                color: #000000;
+                font-size: 1.5rem;
+                font-weight: 200;
+                width: 80%;
+                margin: 1rem 0 0 1rem;
+            }
+        }
     }
 }
