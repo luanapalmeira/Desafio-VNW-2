@@ -198,22 +198,104 @@ header button:hover {
   align-items: center;
 }
 .containerAtendimento .artigoContato {
-  border: solid blue;
-  justify-content: center;
-  align-items: center;
-  width: 50%;
+  width: 51%;
+  margin-left: 4rem;
+}
+.containerAtendimento .artigoContato h1 {
+  font-family: "Oswald";
+  color: #0017E9;
+  font-size: 2rem;
+  font-weight: 500;
+}
+.containerAtendimento .artigoContato h2 {
+  font-family: "Oswald";
+  color: #000000;
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-bottom: 3rem;
 }
 .containerAtendimento .artigoContato section {
-  border: solid green;
-  width: 70%;
+  width: 85%;
   display: flex;
   flex-wrap: wrap;
   gap: 10%;
 }
+.containerAtendimento .artigoContato section img {
+  width: 100%;
+}
+.containerAtendimento .artigoContato section figcaption {
+  font-family: "Oswald";
+  color: #000000;
+  font-size: 1.25rem;
+  font-weight: 500;
+  padding-bottom: 2rem;
+}
 .containerAtendimento .artigoFaleConosco {
-  border: solid brown;
+  height: 70vh;
+  width: 30%;
+}
+.containerAtendimento .artigoFaleConosco h1 {
+  font-family: "Oswald";
+  color: #0017E9;
+  font-size: 2rem;
+  font-weight: 500;
+}
+.containerAtendimento .artigoFaleConosco h2 {
+  font-family: "Oswald";
+  color: #000000;
+  font-size: 1.5rem;
+  font-weight: 500;
+  padding-bottom: 2rem;
 }
 .containerAtendimento .artigoFaleConosco form {
-  border: solid red;
-  width: 40vw;
+  height: 57vh;
+}
+.containerAtendimento .artigoFaleConosco form label {
+  display: block;
+  font-family: "Oswald";
+  color: #000000;
+  font-size: 1.25rem;
+  font-weight: 300;
+}
+.containerAtendimento .artigoFaleConosco form input {
+  height: 5vh;
+  width: 60%;
+  border: 1px solid #000000;
+  margin-bottom: 1rem;
+}
+.containerAtendimento .artigoFaleConosco form textarea {
+  height: 12vh;
+  width: 60%;
+  border: 1px solid #000000;
+}
+.containerAtendimento .artigoFaleConosco form button {
+  display: block;
+  background-color: #0017E9;
+  color: #ffffff;
+  border: none;
+  width: 60%;
+  height: 5vh;
+  cursor: pointer;
+  font-family: "Oswald";
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-top: 3rem;
+}
+.containerAtendimento .artigoFaleConosco form button:hover {
+  background-color: #87CEFA;
+  color: #000000;
+  transition: 0.3;
+}
+
+footer {
+  background-color: #D8D8D8;
+  height: 6vh;
+}
+footer p {
+  font-family: "Oswald";
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: #001C43;
+  text-align: center;
+  padding-top: 1rem;
 }/*# sourceMappingURL=style.css.map */
