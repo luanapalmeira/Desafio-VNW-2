@@ -83,7 +83,7 @@ header {
 
     button {
         background-color: #0016DF;
-        color: #FFFFFF;
+        color: #ffffff;
         border: none;
         width: 12%;
         height: 5vh;
@@ -207,6 +207,74 @@ header {
                 font-weight: 200;
                 width: 80%;
                 margin: 1rem 0 0 1rem;
+            }
+        }
+    }
+}
+
+.containerAtendimento {
+    background-color: #ffffff;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+
+    .artigoContato {
+        border: solid blue;
+        justify-content: center;
+        align-items: center;
+        width: 50%;
+
+        h1 {
+
+        }
+
+        h2 {
+
+        }
+
+        section {
+            border: solid green;
+            width: 70%;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10%;
+
+            figure {
+
+                img {
+
+                }
+
+                figcaption {
+
+                }
+            }
+        }
+    }
+
+    .artigoFaleConosco {
+        border: solid brown;
+
+        h1 {
+
+        }
+
+        h2 {
+
+        }
+
+        form {
+            border: solid red;
+            width: 40vw;
+
+            label {
+
+            }
+
+            input {
+                
             }
         }
     }
